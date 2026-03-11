@@ -21,7 +21,7 @@ and returns typed `Pet` objects.
 
 ## Requirements
 
-- Python 3.10+
+- Python 3.11+
 - Packages:
   - `fastmcp`
   - `pydantic`
