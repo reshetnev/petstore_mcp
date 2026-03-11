@@ -1,0 +1,13 @@
+[project]
+name = "petstore-mcp"
+version = "0.1.0"
+description = "FastMCP server exposing Swagger Petstore tools"
+requires-python = ">=3.11"
+dependencies = [
+  "fastmcp",
+  "httpx",
+  "pydantic",
+]
+
+[project.scripts]
+petstore-mcp = "main:server"
